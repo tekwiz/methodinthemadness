@@ -2,3 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+
+body {
+  header {
+    a.button {
+      display: none;
+    }
+  }
+}
+
+#sidebar {
+  .repo-owner {
+    display: none;
+  }
+}
